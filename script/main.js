@@ -1,13 +1,13 @@
 // trigger to play music in the background with sweetalert
 window.addEventListener('load', () => {
     Swal.fire({
-        title: 'Do you want to play music in the background?',
+        title: 'Вы Бережная Антонина Ефимовна?',
         icon: 'warning',
         showCancelButton: true,
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
-        confirmButtonText: 'Yes',
-        cancelButtonText: 'No',
+        confirmButtonText: 'Да',
+        cancelButtonText: 'Нет',
     }).then((result) => {
         if (result.isConfirmed) {
             document.querySelector('.song').play();
@@ -200,7 +200,7 @@ const animationTimeline = () => {
     )
     .from(".hat", 0.5, {
         x: -100,
-        y: 350,
+        y: 450,
         rotation: -180,
         opacity: 0,
     })
